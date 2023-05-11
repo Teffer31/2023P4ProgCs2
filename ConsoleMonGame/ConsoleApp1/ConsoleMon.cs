@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleMon
 {
+    private const string V = "name";
+
     internal class ConsoleMon
     {
-        int health = 0;
-        int energy = 0;
-        string name = string.Empty;
+        int health;
+        int energy;
+        string name V;
     }
 
-    internal class TakeDamage (int damage = internal)
+    internal void TakeDamage(int damage)
     {
-      
+        health-= damage;
+    }
+
+    internal void DepleteEnergy(int energy)
+    {
+        this.energy-= energy;
     }
 }
