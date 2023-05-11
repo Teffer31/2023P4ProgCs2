@@ -12,4 +12,9 @@ namespace ConsoleMon
         int energy = 0;
         string name = string.Empty;
     }
+
+    internal class TakeDamage (int damage = internal)
+    {
+      
+    }
 }
