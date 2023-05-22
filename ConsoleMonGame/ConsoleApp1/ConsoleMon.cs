@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleMon
+namespace ConsoleApp1
 {
-    private const string V = "name";
-
     internal class ConsoleMon
     {
-        int health;
-        int energy;
-        string name V;
-    }
 
-    internal void TakeDamage(int damage)
-    {
-        health-= damage;
-    }
+        internal int health;
+        internal int energy;
+        string name;
 
-    internal void DepleteEnergy(int energy)
-    {
-        this.energy-= energy;
+
+        internal void TakeDamage(int damage)
+        {
+            health -= damage;
+        }
+
+        internal void DepleteEnergy(int energy)
+        {
+            this.energy -= energy;
+        }
     }
 }
