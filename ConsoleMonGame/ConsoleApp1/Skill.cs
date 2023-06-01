@@ -11,11 +11,12 @@ namespace ConsoleApp1
     {
         internal int damage;
         internal int energyCost;
-        string name;
+        internal string name = "name";
 
-        internal void UseOn(int name)
+        internal void UseOn(ConsoleMon target, ConsoleMon Caster)
         {
-
+            Caster.DepleteEnergy(energyCost);
+            target.TakeDamage(damage);
         }
     }
 }
