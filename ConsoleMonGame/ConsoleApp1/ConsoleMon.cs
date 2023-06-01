@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class ConsoleMon
     {
-
+        private List<Skill> skills;
         internal int health;
         internal int energy;
         string name;
@@ -23,5 +23,6 @@ namespace ConsoleApp1
         {
             this.energy -= energy;
         }
+
     }
 }
