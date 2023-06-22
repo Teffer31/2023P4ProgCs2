@@ -1,4 +1,6 @@
-﻿namespace Consolemon
+﻿using ConsoleApp1;
+
+namespace Consolemon
 {
     internal class Program
     {
