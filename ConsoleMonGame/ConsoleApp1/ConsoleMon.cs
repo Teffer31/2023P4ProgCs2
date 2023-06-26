@@ -11,7 +11,8 @@ namespace ConsoleApp1
         private List<Skill> skills;
         internal int health;
         internal int energy;
-        string name;
+        internal string name;
+        internal Element weakness;
 
 
         internal void TakeDamage(int damage)

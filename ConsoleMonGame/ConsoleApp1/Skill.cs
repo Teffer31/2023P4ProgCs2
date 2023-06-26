@@ -12,6 +12,7 @@ namespace ConsoleApp1
         internal int damage;
         internal int energyCost;
         internal string name = "name";
+        internal Element element;
 
         internal void UseOn(ConsoleMon target, ConsoleMon Caster)
         {
